@@ -16,6 +16,11 @@
       avatar:    /img/blog_changyong.png
       descr: 拥有所有的网站建设教程
 
+    - name: 库问大数据搜索
+      link: http://www.koovin.com/
+      avatar:  /img/blog_changyong.png
+      descr: 提供千万级文献资料搜索
+
     - name: 知乎
       link: https://www.zhihu.com/
       avatar:    /img/blog_changyong.png
@@ -25,6 +30,11 @@
       link: https://www.bilibili.com/
       avatar:    /img/blog_changyong.png
       descr: 国内最大的年轻人潮流文化娱乐社区
+
+    - name: 网易邮箱 
+      link: https://email.163.com/ 
+      avatar:  /img/blog_changyong.png
+      descr: 网易公司推出的一个网络邮箱
 
     - name: 江西省教育考试院
       link: http://www.jxeea.cn/
@@ -95,6 +105,11 @@
       link: https://vercel.com/ 
       avatar: /img/blog_changyong.png 
       descr: 基于hexo引擎模板开发的网站托管服务
+
+    - name: CloudFlare
+      link: https://www.cloudflare.com/zh-cn/
+      avatar: /img/blog_changyong.png
+      descr: 国外的CDN服务及全球最大的DNS服务提供商之一
 
     - name: Github
       link: github.com  
@@ -252,7 +267,7 @@
 - class_name: 便捷链接
   class_desc: 
   link_list:
-    - name: Weibo
+    - name: 微博
       link: https://www.weibo.com/
       avatar: /img/blog_yl3.png
       descr: 中国最大社交分享平台
