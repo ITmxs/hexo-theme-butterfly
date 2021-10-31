@@ -20,6 +20,7 @@ menu:
     图库: /photo/ || fas fa-images
     电影: /movies/ || fas fa-video
     书籍: /books/ || fas fa-book-reader
+    后台: http://admin.baokan.workers.dev/hpp/admin/login/ || fas fa-book-reader
     # 游戏: /games/ || fas fa-video
     作者推荐: /business/ || fas fa-handshake
     广大征集: /team/ || fas fa-paint-roller
