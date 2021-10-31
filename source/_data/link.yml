@@ -1,0 +1,568 @@
+- class_name: 我的常用
+  class_desc: 
+  link_list:
+    - name: CSDN 
+      link: https://www.csdn.net/  
+      avatar: /img/blog_changyong.png  
+      descr: CSDN是专业的中文 IT 技术社区,与千万技术人共成长。
+
+    - name: Runoob
+      link: https://www.runoob.com/
+      avatar:   /img/blog_changyong.png 
+      descr: 提供了编程的基础技术教程
+
+    - name: w3school
+      link: https://www.w3school.com.cn/
+      avatar:    /img/blog_changyong.png
+      descr: 拥有所有的网站建设教程
+
+    - name: 知乎
+      link: https://www.zhihu.com/
+      avatar:    /img/blog_changyong.png
+      descr: 国内最受欢迎的知识性问答社区
+
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com/
+      avatar:    /img/blog_changyong.png
+      descr: 国内最大的年轻人潮流文化娱乐社区
+
+    - name: 江西省教育考试院
+      link: http://www.jxeea.cn/
+      avatar: /img/blog_changyong.png
+      descr: 由江西省教育厅主办
+
+    - name: 江科官网
+      link: https://www.jxut.edu.cn/ 
+      avatar:  /img/blog_changyong.png
+      descr: 官方认证
+
+    - name: 看准网
+      link: https://www.kanzhun.com/
+      avatar:  /img/blog_changyong.png
+      descr: 中国雇主点评与职场信息平台
+
+    - name: 企查查
+      link: http://www.qichacha.com/
+      avatar: /img/blog_changyong.png 
+      descr: 一款企业信息查询工具
+
+    - name: 拉勾
+      link: https://www.lagou.com/
+      avatar: /img/blog_changyong.png 
+      descr: 专注互联网职业机会的招聘网站
+
+    - name: 库问大数据搜索
+      link: http://www.koovin.com/
+      avatar:  /img/blog_changyong.png
+      descr: 提供千万级文献资料搜索
+
+    - name: iconfont
+      link: http://www.iconfont.cn
+      avatar: /img/blog_changyong.png 
+      descr: 国内功能很强大的矢量图标库
+
+    - name: 宝塔面板
+      link: https://www.bt.cn/  
+      avatar: /img/blog_changyong.png 
+      descr: 通过Web端轻松管理服务器
+
+    - name: 阿里云
+      link: https://www.aliyun.com  
+      avatar: /img/blog_changyong.png 
+      descr: 全球领先的云计算及人工智能科技公司
+
+    - name: 腾讯云
+      link: https://cloud.tencent.com/ 
+      avatar: /img/blog_changyong.png 
+      descr: 一家云计算服务提供商
+
+    - name: 百度站长平台 
+      link: https://ziyuan.baidu.com/
+      avatar: /img/blog_changyong.png
+      descr: 百度搜索资源平台 - 让网站更具价值
+      
+    - name: Tidio
+      link: tidio.com 
+      avatar: /img/blog_changyong.png 
+      descr: 一个网站的在线聊天平台
+
+    - name: Coding
+      link: https://e.coding.net/  
+      avatar: /img/blog_changyong.png 
+      descr: 一个面向开发者的云端开发平台
+
+    - name: vercel
+      link: https://vercel.com/ 
+      avatar: /img/blog_changyong.png 
+      descr: 基于hexo引擎模板开发的网站托管服务
+
+    - name: Github
+      link: github.com  
+      avatar: /img/blog_changyong.png 
+      descr: 基于 Git 的一个代码托管网站
+
+    - name: gitee
+      link: gitee.com  
+      avatar: /img/blog_changyong.png 
+      descr: 代码托管协作开发平台
+
+
+
+- class_name: 程序员必备
+  class_desc: 
+  link_list:
+    - name: CSDN
+      link: https://www.csdn.net/
+      avatar:  /img/blog_yl.png
+      descr: CSDN是专业的中文 IT 技术社区,与千万技术人共成长。
+    
+    - name: 程序员客栈
+      link: https://www.proginn.com/
+      avatar:  /img/blog_yl.png
+      descr: 程序员客栈是领先的程序员自由远程工l作平台,未来互联网企业用人方式。
+
+    - name: 廖雪峰博客网
+      link: https://www.liaoxuefeng.com/
+      avatar:   /img/blog_yl.png 
+      descr: 研究互联网产品和技术
+
+    - name: Runoob
+      link: https://www.runoob.com/
+      avatar:   /img/blog_yl.png 
+      descr: 提供了编程的基础技术教程
+
+    - name: LeetCOde
+      link: https://leetcode-cn.com/
+      avatar:   /img/blog_yl.png 
+      descr: 全球极客挚爱的技术成长平台
+
+    - name: w3school
+      link: https://www.w3school.com.cn/
+      avatar:    /img/blog_yl.png
+      descr: 拥有所有的网站建设教程
+
+    - name: 51cto
+      link: https://www.51cto.com/
+      avatar:   /img/blog_yl.png 
+      descr: 中国领先的IT技术网站
+
+    - name: 码市
+      link: https://www.codemart.com/
+      avatar:    /img/blog_yl.png
+      descr: 互联网软件外包服务平台
+
+    - name: 博客园
+      link: https://www.cnblogs.com/
+      avatar:    /img/blog_yl.png
+      descr: 面向开发者的知识分享社区
+
+    - name: 前端网
+      link: http://www.qianduandaxue.com/
+      avatar:    /img/blog_yl.png
+      descr: 最好的自学web前端网站
+
+    - name: Stack Overflow
+      link: https://stackoverflow.com/
+      avatar:    /img/blog_yl.png
+      descr: 全球最受程序员欢迎的开发社区
+
+    - name: 掘金
+      link: https://juejin.im/
+      avatar:    /img/blog_yl.png
+      descr: 一个帮助开发者成长的社区
+
+    - name: 开源中国
+      link: https://www.oschina.net/
+      avatar:    /img/blog_yl.png
+      descr: 国内最大的开源技术社区
+
+    - name: 知乎
+      link: https://www.zhihu.com/
+      avatar:    /img/blog_yl.png
+      descr: 国内最受欢迎的知识性问答社区
+
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com/
+      avatar:    /img/blog_yl.png
+      descr: 国内最大的年轻人潮流文化娱乐社区
+
+    - name: 孟坤工具箱
+      link: http://tool.mkblog.cn/
+      avatar:    /img/blog_yl.png
+      descr: css一键美化、文本差异比较、代码高亮等
+
+    - name: 临时邮箱
+      link: https://linshiyouxiang.net/
+      avatar:    /img/blog_yl.png
+      descr: 匿名注册不常用的网站/论坛，保护隐私免骚扰
+
+    - name: 简书
+      link: https://www.jianshu.com/
+      avatar:    /img/blog_yl.png
+      descr: 创作你的创作
+
+- class_name: 直通车
+  class_desc: 
+  link_list:
+    - name: 江西省教育考试院
+      link: http://www.jxeea.cn/
+      avatar: /img/blog_yl2.png
+      descr: 由江西省教育厅主办
+
+    - name: 全国大学英语四六级考试（CET）
+      link: http://cet-bm.neea.edu.cn
+      avatar: /img/blog_yl2.png
+      descr: CET考试及报名
+
+    - name: 网上共青团·智慧团建
+      link:  https://zhtj.youth.cn/zhtj/
+      avatar:  /img/blog_yl2.png
+      descr: 网上共青团·智慧团建
+
+    - name: 江科官网
+      link: https://www.jxut.edu.cn/ 
+      avatar:  /img/blog_yl2.png
+      descr: 官方认证
+
+    - name: 江科校园网登录IP
+      link: http://10.14.1.35/
+      avatar:  /img/blog_yl2.png
+      descr: 连接校园网接入
+
+    - name: 中高教育学信网
+      link: http://www.chsi.com.cn/
+      avatar:  /img/blog_yl2.png
+      descr: 学信网
+
+    - name: 江科网络教学平台
+      link: http://jxut.fanya.chaoxing.com/portal
+      avatar:  /img/blog_yl2.png
+      descr: 教学平台
+
+    - name: 江科教学一体化服务平台 
+      link: https://zjkgjw.educationgroup.cn/jxkjxy_jsxsd/
+      avatar:  /img/blog_yl2.png
+      descr: 一体化服务平台
+
+    - name: 江科测评
+      link: http://172.16.0.75
+      avatar:  /img/blog_yl2.png
+      descr: 需校园网连接
+
+- class_name: 便捷链接
+  class_desc: 
+  link_list:
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: /img/blog_yl3.png
+      descr: 中国最大社交分享平台
+
+    - name: 粉笔网
+      link: http://www.fenbi.com
+      avatar: /img/blog_yl3.png 
+      descr: 一个互联网教育平台
+
+    - name: 中国计算机技术
+      link: http://www.ruankao.org.cn/
+      avatar:  /img/blog_yl3.png
+      descr: 全国计算机技术资格考唯一官网
+
+    - name: 短链生成器
+      link: http://a.topurl.cn/#/
+      avatar:  /img/blog_yl3.png
+      descr: 一个好用的短网址生成器
+
+    - name: 鼠标多样化
+      link: https://zhutix.com/tag/cursors/
+      avatar:  /img/blog_yl3.png
+      descr: 全国计算机技术资格考唯一官网
+      
+    - name: 看准网
+      link: https://www.kanzhun.com/
+      avatar:  /img/blog_yl3.png
+      descr: 中国雇主点评与职场信息平台
+
+    - name: 企查查
+      link: http://www.qichacha.com/
+      avatar: /img/blog_yl3.png 
+      descr: 一款企业信息查询工具
+
+    - name: 拉勾
+      link: https://www.lagou.com/
+      avatar: /img/blog_yl3.png 
+      descr: 专注互联网职业机会的招聘网站
+
+    - name: Fotor懒设计
+      link: https://www.fotor.com.cn/?utm_source=SHJ&utm_medium=&utm_campaign=&utm_term=&utm_content=
+      avatar: /img/blog_yl3.png 
+      descr: 全球最受欢迎的在线图片制作神器
+
+    - name: 各格式文件互转
+      link: https://app.xunjiepdf.com/
+      avatar: /img/blog_yl3.png 
+      descr: 对pdf等格式文件进行在线转换
+
+    - name: 奶牛快传（文件下载不限速）
+      link: https://cowtransfer.com/
+      avatar: /img/blog_yl3.png 
+      descr: 无需登录即可完成文件上传下载
+
+    - name: 各平台视频解析
+      link:  https://dy.kukutool.com/
+      avatar: /img/blog_yl3.png 
+      descr: 支持视频去水印（快手·抖音）
+
+    - name: 移除图片背景
+      link: https://www.remove.bg/
+      avatar:    /img/blog_yl3.png
+      descr: 一键智能抠图
+
+    - name: PPT 超级市场 
+      link: http://www.ypppt.com/
+      avatar:  /img/blog_yl3.png
+      descr: 一个完全免费的 PPT 模板下载网站 
+
+    - name: 库问大数据搜索
+      link: http://www.koovin.com/
+      avatar:  /img/blog_yl3.png
+      descr: 提供千万级文献资料搜索
+
+    - name: 网易公开课
+      link: https://open.163.com/
+      avatar:  /img/blog_yl3.png
+      descr: 汇集清华、北大、哈佛等世界名校上千门课程
+
+    - name: 网易邮箱 
+      link: https://email.163.com/ 
+      avatar:  /img/blog_yl3.png
+      descr: 网易公司推出的一个网络邮箱
+
+- class_name: 设计素材等
+  class_desc: 
+  link_list: 
+    - name: iconfont
+      link: http://www.iconfont.cn
+      avatar: /img/blog_yl4.png 
+      descr: 国内功能很强大的矢量图标库
+
+    - name: 站长素材
+      link: https://sc.chinaz.com/
+      avatar: /img/blog_yl4.png 
+      descr: 一家大型综合设计类素材网站
+
+    - name: 蜂鸟网
+      link: http://www.fengniao.com
+      avatar: /img/blog_yl4.png 
+      descr: 中国专业摄影门户网站
+
+    - name: 找图新欢（旅行日常为主）
+      link: http://www.ssyer.com/
+      avatar: /img/blog_yl4.png 
+      descr: 一个国外的图片网站
+
+    - name: 编辑精选图
+      link:  https://thenounproject.com/
+      avatar: /img/blog_yl4.png 
+      descr: 国外的较为厚重精选图
+
+- class_name: 设计美学
+  class_desc: 
+  link_list:
+    - name: 纽约的大都会艺术博物馆 
+      link: https://www.metmuseum.org/  
+      avatar: /img/blog_yl5.png  
+      descr: 美国最大的艺术博物馆
+
+- class_name: 建站辅助
+  class_desc: 
+  link_list:
+    - name: Namesilo网站 
+      link: https://www.namesilo.com/  
+      avatar: /img/blog_yl6.png
+      descr: 一家美国便宜域名注册商
+
+    - name: 阿里云
+      link: https://www.aliyun.com  
+      avatar: /img/blog_yl6.png 
+      descr: 全球领先的云计算及人工智能科技公司
+
+    - name: 宝塔面板
+      link: https://www.bt.cn/  
+      avatar: /img/blog_yl6.png 
+      descr: 通过Web端轻松管理服务器
+
+    - name: wordpress官网 
+      link: https://wordpress.org/
+      avatar: /img/blog_yl6.png 
+      descr: 使用PHP语言开发的博客平台
+
+    - name: typecho官网 
+      link: http://typecho.org/ 
+      avatar: /img/blog_yl6.png 
+      descr: 基于PHP的国内开源博客系统
+
+    - name: typecho模板 
+      link: https://typecho.me/
+      avatar: /img/blog_yl6.png 
+      descr: 基于PHP的国内开源博客系统
+
+    - name: 工信部系统 
+      link: https://www.miit.gov.cn/
+      avatar: /img/blog_yl6.png 
+      descr: 工信部ICP备案
+
+    - name: gitee
+      link: gitee.com  
+      avatar: /img/blog_yl6.png 
+      descr: 代码托管协作开发平台
+
+    - name: Coding
+      link: https://e.coding.net/  
+      avatar: /img/blog_yl6.png 
+      descr: 一个面向开发者的云端开发平台
+
+    - name: Github
+      link: github.com  
+      avatar: /img/blog_yl6.png 
+      descr: 基于 Git 的一个代码托管网站
+
+    - name: hexo
+      link: https://hexo.io/  
+      avatar: /img/blog_yl6.png 
+      descr: 一个快速、简洁且高效的博客框架
+
+    - name: Tidio
+      link: tidio.com 
+      avatar: /img/blog_yl6.png 
+      descr: 一个网站的在线聊天平台
+
+    - name: 图标库
+      link: http://www.fontawesome.com.cn/  
+      avatar: /img/blog_yl6.png 
+      descr: 一种带有网页功能的象形文字语言
+
+    - name: 图标官网
+      link: https://fontawesome.com/  
+      avatar: /img/blog_yl6.png 
+      descr: 一种带有网页功能的象形文字语言
+
+    - name: 腾讯安全
+      link: https://urlsec.qq.com/ 
+      avatar: /img/blog_yl6.png 
+      descr: 网址安全中心
+
+    - name: npm
+      link: https://www.npmjs.com/ 
+      avatar: /img/blog_yl6.png 
+      descr: JavaScript 世界的包管理工具,并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码,管理项目依赖关系
+
+- class_name: 官方文档
+  class_desc: 
+  link_list:
+    - name: JavaScript 
+      link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+      avatar: /img/blog_yl7.png
+      descr: JavaScript API 文档
+
+    - name: HTML 
+      link: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+      avatar: /img/blog_yl7.png
+      descr: HTML API 文档
+
+    - name: CSS 
+      link: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+      avatar: /img/blog_yl7.png
+      descr: CSS API 文档
+
+    - name: Python 
+      link: https://docs.python.org/
+      avatar: /img/blog_yl7.png
+      descr: Python API 文档
+
+    - name: PHP
+      link: https://www.php.net/manual/zh/index.php
+      avatar: /img/blog_yl7.png
+      descr: PHP API 文档
+
+    - name: SQL 
+      link: https://docs.microsoft.com/zh-cn/sql/
+      avatar: /img/blog_yl7.png
+      descr: SQL API 文档
+
+    - name: Node.js 
+      link: http://nodejs.cn/
+      avatar: /img/blog_yl7.png
+      descr: Node.js API 文档
+
+    - name: Vue.js 
+      link: https://cn.vuejs.org/v2/guide/
+      avatar: /img/blog_yl7.png
+      descr: 一套用于构建用户界面的渐进式框架
+
+    - name: Vuex
+      link: https://vuex.vuejs.org/zh/
+      avatar: /img/blog_yl7.png
+      descr: 一个专为Vue.js应用程序开发的状态管理模式
+
+    - name: Express中文文档
+      link: https://www.expressjs.com.cn/
+      avatar: /img/blog_yl7.png
+      descr: 基于Node.js平台，快速、开放、极简的Web开发框架
+
+    - name: Layui
+      link: https://www.layui.com/
+      avatar: /img/blog_yl7.png
+      descr: 经典模块化前端UI框架
+
+- class_name: 站长工具
+  class_desc: 
+  link_list:
+    - name: 百度站长平台 
+      link: https://ziyuan.baidu.com/
+      avatar: /img/blog_yl8.png
+      descr: 百度搜索资源平台 - 让网站更具价值
+
+    - name: Google 站长平台
+      link: http://www.google.cn/webmasters/
+      avatar: /img/blog_yl8.png
+      descr: 支持、学习、互动交流和 Search Console – Google
+
+    - name: Bing 网站管理员工具
+      link: https://www.bing.com/toolbox/webmaster/
+      avatar: /img/blog_yl8.png
+      descr: Bing 网站管理员工具
+
+    - name: 站长工具 - 站长之家
+      link: http://tool.chinaz.com/
+      avatar: /img/blog_yl8.png
+      descr: SEO工具,权重查询,收录查询,PR查询,ICP备案查询,whois查询,友情链接查询,反向链接查询,网站测试,IP查询,Alexa查询
+
+    - name: 搜狗站长平台
+      link: http://zhanzhang.sogou.com/
+      avatar: /img/blog_yl8.png
+      descr: 全面掌握在搜狗搜索中的数据表现
+
+    - name: 360 站长平台
+      link: http://zhanzhang.so.com/
+      avatar: /img/blog_yl8.png
+      descr: 给网站带来更多流量和展现
+
+    - name: 超级 SEO 外链工具
+      link: https://tool.lusongsong.com/seo/
+      avatar: /img/blog_yl8.png
+      descr: 网站自动化宣传机器/免费的超级外链工具可批量增加外链
+
+    - name: CloudFlare
+      link: https://www.cloudflare.com/zh-cn/
+      avatar: /img/blog_yl8.png
+      descr: 国外的CDN服务及全球最大的DNS服务提供商之一
+
+    - name: 域名备案管理系统
+      link: http://www.beian.miit.gov.cn/
+      avatar: /img/blog_yl8.png
+      descr: 工业和信息化部ICP/IP地址/域名信息备案管理系统
+
+    - name: 公安备案网
+      link: http://beian.gov.cn/
+      avatar: /img/blog_yl8.png
+      descr: 全国互联网安全管理服务平台

@@ -1,0 +1,20 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Allow: /message/
+Allow: /page/
+Allow: /links/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /stars/
+Disallow: /link/
+
+
+Sitemap: https://blog.juanertu.com/sitemap.xml
+Sitemap: https://blog.juanertu.com/baidusitemap.xml
