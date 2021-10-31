@@ -138,8 +138,11 @@ theme: butterfly
 deploy:
   type: 'git'
   repo: 
-    github: https://github.com/all0aaron/all0aaron.github.io.git,main
-    coding: https://e.coding.net/baokan0/baokan/baokan.git,main
+    github: https://all0aaron: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@github.com/all0aaron/all0aaron.github.io.git,main 
+    # github: https://github.com/all0aaron/all0aaron.github.io.git,main
+    # coding: https://e.coding.net/baokan0/baokan/baokan.git,main
+    # coding: 照着教程自己组装。
+    # https://akilar.top/posts/f752c86d/
 
 
 

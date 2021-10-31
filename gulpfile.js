@@ -52,7 +52,6 @@ gulp.task('default', gulp.parallel(
 
 
 // 以下是网站实现了PWA文件
-const gulp = require("gulp");
 const workbox = require("workbox-build");
 
 gulp.task('generate-service-worker', () => {
