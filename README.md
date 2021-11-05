@@ -1,2 +1,2 @@
 # blog-code
-blog
+new-blog-code
