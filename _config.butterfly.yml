@@ -8,7 +8,8 @@
 
 menu:
   首页: / || fas fa-home
-  黑马科技: http://hmkj.work || fas fa-user-astronaut
+  # 黑马科技: http://hmkj.work || fas fa-user-astronaut
+  Home-报刊: http://home.baokan0.com || fas fa-user-astronaut
   大数据展示中心: http://all2aaron.github.io/big-data/ || fas fa-database
   作者的百货商城: http://baokan9.66dw.net/ || fas fa-store
   找文章|| fas fa-align-justify:
