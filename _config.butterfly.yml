@@ -16,13 +16,16 @@ menu:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
     归档: /archives/ || fas fa-archive
-  其他|| fas fa-code:
+  闲闲|| fas fa-desktop:
     # 音乐: /music/ || fas fa-music
     图库: /photo/ || fas fa-images
     电影: /movies/ || fas fa-video
     书籍: /books/ || fas fa-book-reader
-    后台: https://admin.baokan.workers.dev/hpp/admin/login/ || fas fa-money-check
     # 游戏: /games/ || fas fa-video
+  其他|| fas fa-code:
+    碎语: /say/ || fas fa-globe-africa
+    后台: https://admin.baokan.workers.dev/hpp/admin/login/ || fas fa-money-check
+    聊天室: http://106.14.75.22:9200/ || fas fa-chalkboard-teacher
     作者推荐: /business/ || fas fa-handshake
     广大征集: /team/ || fas fa-paint-roller
   友链: /link/ || fas fa-link
