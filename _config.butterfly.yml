@@ -863,6 +863,16 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?11ce86dd4c9b490f6c4552647007a36e";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+      </script>
+
     - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
     # 其中media="defer" onload="this.media='all'"是异步加载配置项，确保自定义样式会在页面加载完成后才继续渲染。如果没有需求或效果不好可以不加这个。
     - <link rel="stylesheet" href="/css/color@1.0.0.css">
