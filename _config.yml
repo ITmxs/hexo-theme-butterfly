@@ -126,39 +126,13 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-# deploy:
-#   type: 'git'
-#   repo: 
-#     github: 'git@github.com:all0aaron/all0aaron.github.io.git'
-#     coding: https://e.coding.net/baokan0/baokan/baokan.git
-#   branch: main
+
 
 deploy:
   type: 'git'
   repo: 
     github: https://all0aaron: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@github.com/all0aaron/all0aaron.github.io.git,main 
-    # github: https://github.com/all0aaron/all0aaron.github.io.git,main
-    # coding: https://e.coding.net/baokan0/baokan/baokan.git,main
-    # coding: 照着教程自己组装。
-    # https://akilar.top/posts/f752c86d/
-
-
-
-# deploy:
-#   type: 'git'
-#   repo: 
-#     coding: https://baokan0.coding.net/p/baokan/d/baokan/git
-#       github: 'https://github.com/all0aaron/all0aaron.github.io.git'
-#   branch: master
-
-
-# type: 'git'
-# repo: 'https://e.coding.net/baokan0/baokan/baokan.git'
-# branch: master
-
-
+ 
 #aplayer
 aplayer: 
   script_dir: js                      # Public 目录下脚本目录路径，默认: 'assets/js'
