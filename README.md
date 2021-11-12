@@ -20,3 +20,11 @@ https://zhuanlan.zhihu.com/p/170563000
 
 
 ![image-20211112200735229](https://luckly007.oss-cn-beijing.aliyuncs.com/image/image-20211112200735229.png)
+
+
+
+
+
+![image-20211112200853218](https://luckly007.oss-cn-beijing.aliyuncs.com/image/image-20211112200853218.png)
+
+https://www.msy.plus/2021/10/02/hexo-deploy-github-action/
