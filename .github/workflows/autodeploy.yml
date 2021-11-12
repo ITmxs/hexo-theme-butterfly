@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      #2020年10月后github新建仓库默认分支改为main，注意更改
+
   release:
     types:
       - published
@@ -16,7 +16,7 @@ jobs:
     - name: 检查分支
       uses: actions/checkout@v2
       with:
-        ref: main
+        ref: master
 
     - name: 安装 Node
       uses: actions/setup-node@v1
@@ -24,6 +24,8 @@ jobs:
         node-version: "12.x"
 
     - name: 安装 Hexo
+      env:
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
       run: |
         export TZ='Asia/Shanghai'
         npm install hexo-cli -g
