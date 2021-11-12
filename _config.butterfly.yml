@@ -57,10 +57,11 @@ copy:
 #   icon: link || the description
 social:
   fab fa-qq: /img/blog_qq.jpg || QQ
+  # fab fa-vx: /img/blog_qq.jpg || QQ
   # fab fa-weixin: /img/blog_vx.jpg || Weixin
-  fab fa-weibo: https://weibo.com/u/6135045729 || Weibo
+  # fab fa-weibo: https://weibo.com/u/6135045729 || Weibo
 
-  fas fa-envelope: mailto:gin7shushu0@163.com || Email
+  # fas fa-envelope: mailto:17752170152@163.com || Email
 
 
 
