@@ -203,9 +203,9 @@ neat_js:
 
 # 站点地图
 # sitemap:
-#   path: https://baokan0.com/sitemap.xml
+#   path: https://jianguojs.cn/sitemap.xml
 # baidusitemap:
-#   path: https://baokan0.com/baidusitemap.xml
+#   path: https://jianguojs.cn/baidusitemap.xml
 
 
 wowjs:
