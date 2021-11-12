@@ -129,9 +129,9 @@ theme: butterfly
 
 
 deploy:
-  type: 'git'
+  type: 
   repo: 
-    github: https://all0aaron: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@github.com/ITmxs/myblogpages.git,master 
+    github: https://ITmxs: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@github.com/ITmxs/myblogpages.git
     branch: master
  
 #aplayer
