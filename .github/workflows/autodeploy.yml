@@ -1,11 +1,10 @@
-# 当有改动推送到master分支时，启动Action
 name: 自动部署
-
+# 当有改动推送到master分支时，启动Action
 on:
   push:
     branches:
-      - master #2020年10月后github新建仓库默认分支改为main，注意更改
-
+      - main
+      #2020年10月后github新建仓库默认分支改为main，注意更改
   release:
     types:
       - published
@@ -17,35 +16,17 @@ jobs:
     - name: 检查分支
       uses: actions/checkout@v2
       with:
-        ref: master #2020年10月后github新建仓库默认分支改为main，注意更改
+        ref: main
 
     - name: 安装 Node
       uses: actions/setup-node@v1
       with:
         node-version: "12.x"
-    - name: deply
-
-      env:
-        HEXO_DEPLOY_KEY: ${{secrets.HEXO_DEPLOY_KEY}}
-
-      run: |
-        git config --global user.name "早起的年轻人"
-        git config --global user.email "17752170152@163.com"
-        git clone https://github.com/ITmxs/hexome.git .deploy_git
-        # 此处务必用HTTPS链接。SSH链接可能有权限报错的隐患
-        # =====注意.deploy_git前面有个空格=====
-        npm install 
-        npm run build
-        npm run deploy
-
-        # 这行指令的目的是clone博客静态文件仓库，防止Hexo推送时覆盖整个静态文件仓库，而是只推送有更改的文件
-        hexo deploy
 
     - name: 安装 Hexo
       run: |
         export TZ='Asia/Shanghai'
         npm install hexo-cli -g
-
     - name: 缓存 Hexo
       uses: actions/cache@v1
       id: cache
@@ -56,13 +37,14 @@ jobs:
     - name: 安装依赖
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
+        npm install gulp-cli -g #全局安装gulp
         npm install --save
-
     - name: 生成静态文件
       run: |
         hexo clean
+        hexo douban
         hexo generate
-
+        gulp
     - name: 部署
       run: |
         git config --global user.name "早起的年轻人"
