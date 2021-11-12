@@ -9,9 +9,9 @@
 menu:
   首页: / || fas fa-home
   # 黑马科技: http://hmkj.work || fas fa-user-astronaut
-  Home-报刊: http://home.baokan0.com || fas fa-user-astronaut
-  大数据展示中心: http://all2aaron.github.io/big-data/ || fas fa-database
-  作者的百货商城: http://baokan9.66dw.net/ || fas fa-store
+  Home-坚果: http://home.baokan0.com || fas fa-user-astronaut
+  # 大数据展示中心: http://all2aaron.github.io/big-data/ || fas fa-database
+  # 作者的百货商城: http://baokan9.66dw.net/ || fas fa-store
   找文章|| fas fa-align-justify:
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
@@ -24,9 +24,9 @@ menu:
     # 游戏: /games/ || fas fa-video
   其他|| fas fa-code:
     碎语: /say/ || fas fa-globe-africa
-    后台: https://admin.baokan.workers.dev/hpp/admin/login/ || fas fa-money-check
-    聊天室: http://106.14.75.22:9200/ || fas fa-chalkboard-teacher
-    作者推荐: /business/ || fas fa-handshake
+    # 后台: https://admin.baokan.workers.dev/hpp/admin/login/ || fas fa-money-check
+    # 聊天室: http://106.14.75.22:9200/ || fas fa-chalkboard-teacher
+    # 作者推荐: /business/ || fas fa-handshake
     广大征集: /team/ || fas fa-paint-roller
   友链: /link/ || fas fa-link
   关于我: /about/ || fas fa-heart
@@ -59,7 +59,7 @@ social:
   fab fa-qq: /img/blog_qq.jpg || QQ
   # fab fa-weixin: /img/blog_vx.jpg || Weixin
   fab fa-weibo: https://weibo.com/u/6135045729 || Weibo
-  fas fa-cart-arrow-down: https://shop340959388.m.taobao.com/?ut_sk=1.X%2BGuCN7G1rcDAMQuVe49Mzeq_21380790_1632655800400.Copy.shop&weexShopSubTab=shopindex&sourceType=shop&weexShopTab=shopindexbar&suid=416140DD-0515-45C7-BE3C-5A2F8C269973&shareUniqueId=12513846406&un=433937dfaf800e3ab59e99232f4e1807&share_crt_v=1&spm=a2159r.13376460.0.0&sp_tk=aWVpUVhKTjRYWHU=&cpp=1&shareurl=true&short_name=h.f3t81to&bxsign=scdGK8ctwcP1fVQhe2i7D0z-H8oh5SyKZz2dO0SS2qKKsOVtqbSE-QkWBegjIktscEZ5dOY27CEbXUPL_OuEMinLsAkXZzIzpsXR99JAVCnqx0&sm=e82e5e&app=chrome || TB
+
   fas fa-envelope: mailto:gin7shushu0@163.com || Email
 
 
@@ -105,9 +105,9 @@ katex:
 # Favicon（网站图标）
 favicon: /img/wz_logo.png
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
-  img: /img/blog_tx.jpg
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -670,7 +670,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/all0aaron
+      link: https://github.com/ITmxs
   card_announcement:
     enable: true
     content: 保持对生活的热爱。

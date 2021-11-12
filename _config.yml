@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 报刊
-subtitle: 'keep walking'
-description: '岁月不回头，且行且珍惜。'
+title: 坚果技术
+subtitle: 'keep loveing'
+description: '此间若无火炬，我便是唯一的光。'
 keywords: '博客|hexo'
 top_img: 'https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg'
-author: 钟书航
+author: 坚果
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.baokan0.com
+url: https://www.jianguojs.cn
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -152,7 +152,7 @@ aplayer:
 githubcalendar:
   enable: true
   enable_page: /
-  user: all0aaron
+  user: ITmxs
   layout:
     type: id
     name: recent-posts
