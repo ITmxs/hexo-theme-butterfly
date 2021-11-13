@@ -131,7 +131,7 @@ theme: butterfly
 deploy:
   type: git
   repo: 
-    github: git@github.com:ITmxs/hexome.git
+    github: https://github.com/ITmxs/hexome.git
     branch: main
     token: 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
  
