@@ -1,56 +1,41 @@
-name: 自动部署
-# 当有改动推送到master分支时，启动Action
+name: Hexo Deploy
+
 on:
   push:
     branches:
-      - main
-      #2020年10月后github新建仓库默认分支改为main，注意更改
-  release:
-    types:
-      - published
+      - master
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-18.04
+    if: github.event.repository.owner.id == github.event.sender.id
+
     steps:
-    - name: 检查分支
-      uses: actions/checkout@v2
-      with:
-        ref: main
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: master
 
-    - name: 安装 Node
-      uses: actions/setup-node@v1
-      with:
-        node-version: "12.x"
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
 
-    - name: 安装 Hexo
-      run: |
-        export TZ='Asia/Shanghai'
-        npm install hexo-cli -g
-    - name: 缓存 Hexo
-      uses: actions/cache@v1
-      id: cache
-      with:
-        path: node_modules
-        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+      - name: Setup Hexo
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY1 }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "早起的年轻人"
+          git config --global user.email "17752170152@163.com"
+          npm install hexo-cli -g
+          npm install
 
-    - name: 安装依赖 1
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: |
-        npm install gulp-cli -g 
-        npm install --save
-    - name: 生成静态文件
-      run: |
-        hexo clean
-        hexo douban
-        hexo generate
-        gulp
-    - name: 部署
-      run: |
-        git config --global user.name "all0aaron"
-        git config --global user.email "gin7shushu0@163.com"
-        git clone https://github.com/all0aaron/all0aaron.github.io.git .deploy_git
-        # 此处务必用HTTPS链接。SSH链接可能有权限报错的隐患
-        # =====注意.deploy_git前面有个空格=====
-        # 这行指令的目的是clone博客静态文件仓库，防止Hexo推送时覆盖整个静态文件仓库，而是只推送有更改的文件
-        hexo deploy
+      - name: Deploy
+        run: |
+          hexo clean
+          hexo deploy
